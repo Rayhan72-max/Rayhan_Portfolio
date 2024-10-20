@@ -8,7 +8,7 @@ const Banner = (props) => {
         <div className="relative bg-black h-[600px] flex justify-between w-screen lg:h-screen overflow-hidden">
             {/* bg-[url('../../assets/images/bgportfolio.jpg')] */}
             <div className='text-white mt-[150px] ml-[50px] lg:ml-[150px]'>
-                <h1 className='text-3xl'>I'M RAYHAN PATWARY</h1>
+                <h1 className='text-3xl'>I&apos;M RAYHAN PATWARY</h1>
                 <h1 className='font-serif'>WEBDEVELOPER</h1>
             </div>
             <div className='overflow-hidden	'>

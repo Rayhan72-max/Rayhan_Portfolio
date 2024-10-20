@@ -9,7 +9,7 @@ const Navbar = (props) => {
     const pathname = usePathname();
     return (
             <nav className='bg-black text-white flex justify-around w-full py-4 lg:w-screen'>
-                <Image height={100} width={100} src={logo}></Image>
+                <Image height={100} width={100} alt='Rayhan' src={logo}></Image>
                 <ul className='flex gap-2 lg:gap-6 mr-8'>
                 <Link className={`hover:safelist link ${pathname === '/' ? 'text-green-500' : ''}`} href={'/'}><li>Home</li></Link>
                 <Link className={`hover:uppercase link ${pathname === '/about' ? 'text-green-500' : ''}`} href='/about'><li>About</li></Link>

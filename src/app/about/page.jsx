@@ -17,7 +17,7 @@ const About = (props) => {
                 <section className='py-8'>
                 <div>
                 <h1 className='text-3xl'>About Me</h1>
-                <p className='mt-2'>Hi! I'm Rayhan Patwary. A <span className='font-bold'>MERN stack</span> developer.I'm expert in JS. Also I know basic NEXT.js.<span className='font-bold'>This website is created with Next.js</span>.I also got a good communication skill.I also love to solve problems. Currently I'm pursuing a BBA in Marketing Major in Dhaka University. </p>
+                <p className='mt-2'>Hi! I&apos;m Rayhan Patwary. A <span className='font-bold'>MERN stack</span> developer.I&apos;m expert in JS. Also I know basic NEXT.js.<span className='font-bold'>This website is created with Next.js</span>.I also got a good communication skill.I also love to solve problems. Currently Im pursuing a BBA in Marketing Major in Dhaka University. </p>
                 </div>
                 <div className='flex justify-between mt-4 w-3/4'>
                     <div>
