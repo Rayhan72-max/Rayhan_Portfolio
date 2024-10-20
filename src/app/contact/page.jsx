@@ -22,7 +22,7 @@ const Contact = (props) => {
          <div className='ml-4 mt-8'>
             <h1 className='text-3xl border-b-4 border-slate-950 w-60'>Get in touch</h1> 
         <div className='flex justify-between gap-4 h-full w-screen lg:container'>
-            <div className='mt-4'>
+            <div className='mt-4 text-2xl'>
             <h1>S.S. Zahurul Haque Hall,Dhaka University</h1>
             <h1>Bangladesh</h1> 
             <h1>rayhanpatwary71@gmail.com</h1>
@@ -34,7 +34,7 @@ const Contact = (props) => {
                 <input type="text" name='email' placeholder='Email' className='border-b-2 border-slate-950' />
                 <textarea name='message' placeholder='Message Here' type="text" className='col-span-2 border-b-2 border-slate-950'/>
                 
-                <input className='col-span-2 bg-zinc-950 text-white p-4' type="submit" value={"Send Message"}></input>
+                <input className='col-span-2 bg-zinc-950 text-white p-4 hover:text-green-500' type="submit" value={"Send Message"}></input>
             </form>
          </div>         
          </div>

@@ -72,3 +72,34 @@ body {
   }
   
 }
+
+.fade{
+  animation-name: fade;
+  animation-duration: 5s;
+}
+@keyframes fade{
+  from{opacity:0;}
+  to{opacity:1;}
+}
+.textup:hover{
+  animation-name: textup;
+  animation-duration: 500ms;
+  animation-delay:0ms;
+}
+@keyframes textup{
+  from{transform: translateY(1rem);}
+  to{transform: translateY(0);}
+}
+
+.fadeout{
+  transition-timing-function: ease-out;
+  animation-name: textup;
+  animation-duration: 5s;
+  animation-delay:0ms;
+}
+@keyframes textup{
+  from{transform: translateY(2rem);
+  opacity:0.5;}
+  to{transform: translateY(0);
+  opacity:1;}
+}

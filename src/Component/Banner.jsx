@@ -5,14 +5,14 @@ import styles from "./main.module.css"
 
 const Banner = (props) => {
     return (
-        <div className="relative bg-black h-[600px] flex justify-between w-screen lg:h-screen overflow-hidden">
+        <div className="relative bg-black h-[600px] flex justify-between w-screen lg:h-screen">
             {/* bg-[url('../../assets/images/bgportfolio.jpg')] */}
             <div className='text-white mt-[150px] ml-[50px] lg:ml-[150px]'>
                 <h1 className='text-3xl'>I&apos;M RAYHAN PATWARY</h1>
-                <h1 className='font-serif'>WEBDEVELOPER</h1>
+                <div className='font-serif fadeout'>WEBDEVELOPER</div>
             </div>
             <div className='overflow-hidden	'>
-                <Image className='rounded-full -mt-4 mr-[250px]' src={rayhan}
+                <Image className='rounded-full -mt-4 mr-[250px] fade' src={rayhan}
                     width={350} height={350} />
             </div>
             <div className="custom-shape-divider-bottom-1729236209">
