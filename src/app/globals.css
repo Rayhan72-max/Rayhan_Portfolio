@@ -25,3 +25,50 @@ body {
     text-wrap: balance;
   }
 }
+
+.custom-shape-divider-bottom-1729236209 {
+  position:absolute;
+  
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1729236209 svg {
+  position: relative;
+  
+  display: block;
+  width: calc(109% + 1.3px);
+  height: 250px;
+}
+
+.custom-shape-divider-bottom-1729236209 .shape-fill {
+  fill: #ffffff;
+}
+
+@media only screen and (max-width: 720px) {
+  .custom-shape-divider-bottom-1729236209 {
+    position:absolute;
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .custom-shape-divider-bottom-1729236209 svg {
+    position: relative;
+    
+    display: block;
+    width: calc(109% + 1.3px);
+    height: 250px;
+  }
+  
+  .custom-shape-divider-bottom-1729236209 .shape-fill {
+    fill: #ffffff;
+  }
+  
+}
