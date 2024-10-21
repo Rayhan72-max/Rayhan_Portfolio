@@ -10,10 +10,10 @@ export default function Home() {
     <div>
       
       <Banner></Banner>
-      <About></About>
+       <About></About>
       <Portfolio></Portfolio>
-      <Contact></Contact>
-      
+      <Contact></Contact>  
+       
     </div>
   );
 }

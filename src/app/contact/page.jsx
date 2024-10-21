@@ -19,16 +19,16 @@ const Contact = (props) => {
     }
 
     return (      
-         <div className='ml-4 mt-8'>
+         <div className='ml-2 mt-8'>
             <h1 className='text-3xl border-b-4 border-slate-950 w-60'>Get in touch</h1> 
-        <div className='flex justify-between gap-4 h-full w-screen lg:container'>
+        <div className='flex flex-col justify-between gap-2 ml-2 h-full w-11/12 lg:container'>
             <div className='mt-4 text-2xl'>
             <h1>S.S. Zahurul Haque Hall,Dhaka University</h1>
             <h1>Bangladesh</h1> 
             <h1>rayhanpatwary71@gmail.com</h1>
             <h1>01823728416</h1>
             </div>
-            <form onSubmit={handleSubmit} className='grid grid-cols-2 gap-4 w-1/2 h-full overflow-hidden'>
+            <form onSubmit={handleSubmit} className='container grid grid-cols-2 gap-2 w-full h-full'>
                 
                 <input type="text" name='name' placeholder='Name' className='border-b-2 border-slate-950' />
                 <input type="text" name='email' placeholder='Email' className='border-b-2 border-slate-950' />
