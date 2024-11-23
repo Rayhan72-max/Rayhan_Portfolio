@@ -5,7 +5,7 @@ import styles from "./main.module.css"
 
 const Banner = (props) => {
     return (
-        <div className="relative bg-[#142142] h-[400px] flex justify-around lg:h-[600px]">
+        <div className="relative bg-[#142142] h-[400px] flex justify-around lg:h-[550px]">
             {/* bg-[url('../../assets/images/bgportfolio.jpg')] */}
             <div className='text-white mt-[150px] ml-[50px] lg:ml-[150px]'>
                 <h1 className='text-3xl'>I&apos;M RAYHAN PATWARY</h1>
