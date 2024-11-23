@@ -9,7 +9,7 @@ import "./main.module.css"
 const Navbar = (props) => {
     const pathname = usePathname();
     return (
-            <nav  className="sticky top-0  z-10 border-2 border-red-700 bg-black text-white flex justify-around w-full py-2 lg:w-80">
+            <nav  className="sticky top-0  z-10 bg-black text-white flex justify-around w-full py-2">
                 <div className='w-1/2'>
                 <Image className='fade' height={50} width={50} alt='Rayhan' src={logo}></Image>
                 </div>
